@@ -1,6 +1,6 @@
 const express=require("express");
 require('dotenv').config();
-const SECRET_KEY="sk_test_51NG19iSEj6XytKGLRDnYZZhz7b5mmwRpCdqLPrn992jQioFMuakfa4uxP1ZzQHSGBqT4Zcz1uKyuZXwQZ79YWa5u00chsaGyJw";
+const SECRET_KEY=process.env.SECRET_KEY;
 // console.log(SECRET_KEY)
 const app=express();
 
