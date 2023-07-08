@@ -1,0 +1,257 @@
+body {
+  /* background-color: blueviolet; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 40px;
+  padding-top: 0px;
+background-color: #E1F1FF; 
+/* background-color: #BCE0FD;
+background-color: #B2D8E5;  */
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.prod-block{
+  margin-left: 100px;
+  /* border: 10px solid gray; */
+  padding: 10px 30px;
+  padding-right: 130px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.prod-block img{
+  padding: none;
+  height: 300px;
+  width: 300px;
+
+}
+
+.prod-container{
+  display: flex;
+  flex-direction: row;
+}
+.prod-det{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+
+img{
+  height: 300px;
+  width: 300px;
+}
+.pro-heading{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* color: rgb(19, 19, 31); */
+  color: rgb(0, 1, 4);
+  letter-spacing: 2px;
+  font-size: 40px;
+  /* background-color: #4CAF50; */
+  background-color: #ffffff; 
+  padding: 30px;
+  /* padding-bottom: 0px; */
+  margin-top: 0;
+}
+
+button{
+  padding: 4px 8px;
+  background-color: black;
+  color: wheat;
+  border-radius: 3px;
+  margin-right: 20px;
+  border: none;
+}
+
+h3{
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(228, 10, 210);
+  padding: 0;
+  margin: 0;
+}
+
+
+.form-block {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-block h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-block label {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-block input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.form-block button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-block button:hover {
+  background-color: #3e8e41;
+}
+
+.form-block input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+.payment-block {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.payment-block h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.payment-block p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.payment-block button {
+  background-color: #3436c4;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.payment-block button:hover {
+  background-color: #bd1313;
+}
+
+
+.cart-block {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.cart-block h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cart-block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-block li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-block li img {
+  max-width: 300px;
+  margin-right: 10px;
+}
+
+.cart-block li h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.cart-block li p {
+  margin: 0 10px;
+}
+
+.cart-block li button {
+  background-color: #ff6961;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-block p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cart-block button {
+  background-color: #3cb371;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.cart-block button:last-child {
+  background-color: #ff6961;
+}
+
+
+button:hover{
+  cursor: pointer;
+  background-color: #ff6961;
+  border: none;
+  color: black;
+  transform: scale(1.2);
+}
