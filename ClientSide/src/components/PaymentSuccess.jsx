@@ -21,7 +21,6 @@ const PaymentSuccess = () => {
                 <MDBCol className='card m-3 d-flex
     align-items-center
   justify-content-center'>
-
                     <strong style={{
                         background: "green",
                         color: 'white', borderRadius: '5px'
