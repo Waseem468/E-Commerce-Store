@@ -19,7 +19,7 @@ const ProductDetails = () => {
     }
 
     const handleCheckout=async()=>{
-        await axios.get(`http://localhost:8080/secret/${product?.itemPrice}`).then((res)=>{
+        await axios.get(`https://e-commerce-store1.onrender.com/secret/${product?.itemPrice}`).then((res)=>{
             navigate(`/checkout/${res.data.client_secret}`)
         })
     }

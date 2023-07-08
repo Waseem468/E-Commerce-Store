@@ -23,7 +23,7 @@ const CartProduct = () => {
         setCount(count - 1)
     }
     const handleCheckout = async () => {
-        await axios.get(`http://localhost:8080/secret/${aggregate}`).then((res) => {
+        await axios.get(`https://e-commerce-store1.onrender.com/secret/${aggregate}`).then((res) => {
             navigate(`/checkout/${res.data.client_secret}`)
         })
     }
